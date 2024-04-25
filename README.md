@@ -17,7 +17,7 @@ This repository contains a baseball pitch-type classifier that uses both linear 
 
 
 ## Fine-tuning
-- **Optuna**: Optuna is an automatic hyperparameter optimization software framework. We used Optuna to fine-tune Random forest Classifier model. The accuracy improvements are very modest, but with different parameters to tune over (we only tuned over n_estimators and max_features) or a different model type (e.g. GBM, SVM) or even more features (release point, balls + strikes, etc), we could further improve our model accuracy.
+- **Optuna**: Optuna is an automatic hyperparameter optimization software framework. We used Optuna to fine-tune Random forest Classifier model. The accuracy improvements are very modest, but with different parameters to tune over (we only tuned over n_estimators and max_features) or a different model type (e.g. GBM, SVM) or even more features (release point, balls + strikes, etc), we could further improve our model accuracy. [https://github.com/optuna/optuna]
 
 ## Results
 - **Linear Model**: This Model produced about 44% accuracy, with a log loss of 10.19.
